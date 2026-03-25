@@ -69,6 +69,19 @@ View logs and chat with your surveillance data:
 ```bash
 streamlit run CamAI/app.py
 ```
+---
+
+---
+
+## 🎥 Demo & Samples
+
+For evaluation purposes, pre-processed samples and reference footages are available in the `/demo` folder:
+
+* **Sample Video**: Includes `Fighting011_x264.mp4`, a representative surveillance clip used for testing detection accuracy.
+* **Generated Reports**: View `report.md` in the root or `/demo` directory to see an example of the AI-generated incident summary.
+
+> [!TIP]
+> You can quickly test the Dashboard functionality without running the full pipeline by using the existing `scene_log.db` file provided in the repository.
 
 ---
 
